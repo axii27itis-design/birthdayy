@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      text-align: center;
+      padding: 50px;
+    }
+    .letter {
+      display: none;
+      margin-top: 30px;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>heres the letter..</h2>
+  <button onclick="openLetter()"> Open</button>
+
+  <div class="letter" id="letter">
+    <h3>Happy Birthday</h3>
+    <p>
+      if you're reading this,it means you've opened the gift. Now i know its just a disposable camera but I wanted to give it a meaningful touch so for that i decided to set it up in a way it'll end by march of 2027,your next birthday. what you're gonna do is you're gonna take 2 pictures per month starting march 2026 and by march 2027, you'll have used 24 pics and you'll be left with 3 last pics and two of them are gonna be taken on your birthday this year and next year,and the last 27th pic will be used on the last day of our 2026-27 sem. Now whether I'm in the last picture or not,i want to see you happy even if it means with your new friends though i do hope it'll be our mastikhor gang. Anyways i don't mean to control your use over this cam,if you feel like capturing a moment someday,do it without thinking about the 2 picture rule,I hope when this film will be developed, we'll all still be together and look at a year full of memories together, happy birthday best friend i love u.
+
+    </p>
+  </div>
+
+  <script>
+    function openLetter() {
+      document.getElementById("letter").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
